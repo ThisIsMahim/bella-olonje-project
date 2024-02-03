@@ -1,0 +1,42 @@
+.font-mons {
+    font-family: "Montserrat", sans-serif;
+  }
+  .font-poppins {
+    font-family: "Poppins", sans-serif;
+  }
+
+.nav-container{
+    position: relative;
+}
+.nav-container .hamburger-lines {
+    height: 26px;
+    width: 32px;
+    position: absolute;
+    top: 47px;
+    right: 30px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+.nav-container .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #0e2431;
+  }
+@media (min-width: 768px) {
+    #banner{
+        background-image:url('bg-layer.png');
+    }
+    #footer-banner{
+        background:url('banner-2.png');
+    }
+    .nav-container .hamburger-lines {
+        display: hidden;
+    }
+    .nav-container .hamburger-lines .line {
+        display: hidden;
+    }
+}

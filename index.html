@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bella Onojie</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- cdn link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Pre-scripts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-mons overflow-x-hidden">
+    <header>
+      <!-- header menu -->
+      <div class="navbar nav-container bg-base-100 lg:pl-20 lg:pr-12">
+        <div class="flex-1">
+          <img
+          src="bella_logo.png"
+          class="h-[100px] w-[200px]"
+          alt=""
+          srcset=""
+        />
+        </div>
+        <!-- menu large -->
+        <menu class="hidden lg:flex gap-10">
+          <a
+            href=""
+            class="text-black font-semibold hover:cursor-pointer hover:text-[#FA4A0C] text-xl"
+            >Home</a
+          ><a
+            href=""
+            class="text-black font-semibold hover:cursor-pointer hover:text-[#FA4A0C] text-xl"
+            >Product</a
+          ><a
+            href=""
+            class="text-black font-semibold hover:cursor-pointer hover:text-[#FA4A0C] text-xl"
+            >Faq</a
+          ><a
+            href=""
+            class="text-black font-semibold hover:cursor-pointer hover:text-[#FA4A0C] text-xl"
+            >Contact</a
+          >
+        </menu>
+        <!-- menu small -->
+        <div class="lg:hidden flex flex-col text-black font-semibold ">
+          <ul class="menu menu-horizontal px-1">
+            <li>
+              <details>
+                <summary class="text-xl">
+                  Menu
+                </summary>
+                <ul class="p-2 bg-base-100 rounded-t-none">
+                  <li class="hover:text-[#FA4A0C] text-xl "><a>Home</a></li>
+                  <li class="hover:text-[#FA4A0C] text-xl"><a>Products</a></li>
+                  <li class="hover:text-[#FA4A0C] text-xl"><a>Faq</a></li>
+                  <li class="hover:text-[#FA4A0C] text-xl"><a>Contact</a></li>
+                </ul>
+              </details>
+            </li>
+          </ul>
+        </div>
+        <!-- <div class="hamburger-lines md:hidden" onclick="dropMenu()">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div> 
+      </div>         -->
+    </header>
+    <main class="">
+      <!-- banner -->
+      <div id="banner"
+        class="h-[550px] md:bg-cover flex flex-col items-center text-center gap-12 md:text-white font-bold pt-16 mb-52 md:mb-0"
+      >
+        <p class="text-xl">Food app</p>
+        <p class="text-4xl md:text-5xl max-w-[600px] lg:max-w-[900px] leading-[70px] font-poppins">
+          Why stay hungry when <br class="hidden md:block">
+          you can order form Bella Olonje
+        </p>
+        <p class="text-xl font-normal font-poppins">
+          Download the bella onoje’s food app now on
+        </p>
+        <div class="flex gap-10 flex-col md:flex-row">
+          <button
+            class="btn w-32 bg-[#FA4A0C] border-0 text-white font-bold rounded-2xl hover:bg-[#fa1c0c] hover:scale-105"
+          >
+            Playstore
+          </button>
+          <button
+            class="btn w-32 bg-transparent border-black md:border-white border-[1px] md:text-white font-bold rounded-2xl hover:bg-transparent hover:scale-105"
+          >
+            Appstore
+          </button>
+        </div>
+      </div>
+      <!-- phone anim -->
+      <div class="flex items-center overflow-hidden lg:overflow-visible justify-center relative h-[80vh] md:h-[60vh] lg:mb-[120px]">
+        <img
+          src="phone1.png"
+          data-aos="fade-down-right"
+          data-aos-easing="linear"
+          data-aos-duration="800"
+          class="absolute w-[500px] h-[480px] -left-20 lg:-top-28 lg:left-64 z-10"
+          alt=""
+        />
+        <img
+          src="phone2.png"
+          data-aos="fade-up-left"
+          data-aos-easing="linear"
+          data-aos-duration="800"
+          class="absolute w-[500px] h-[480px] -right-20 top-40 lg:-top-16 lg:right-80 z-0"
+          alt=""
+        />
+      </div>
+      <hr class="hidden md:block border-t-2 w-[850px] mx-auto" />
+      <!-- how app works section -->
+      <section class="flex flex-col w-full items-center gap-16 mb-5 md:mb-32">
+        <h1
+          class="font-poppins font-semibold text-center text-black text-4xl md:py-20"
+        >
+          How the app works
+        </h1>
+        <hr class="md:hidden">
+        <!-- create -->
+        <div class="flex items-center flex-col-reverse md:flex-row justify-center text-center md:text-left gap-10 md:gap-0">
+            <div class="">
+              <img src="create-phone.png" data-aos="flip-right" data-aos-duration="1000" data-aos-easing="linear" alt="" srcset="" class="w-[480px] h-[400px]" />
+            </div>
+            <div
+              class="flex flex-col justify-self-center justify-center gap-8 md:gap-4 max-w-[560px]"
+            >
+              <p class="text-[#FA4A0C] text-xl font-bold">Create an account</p>
+              <h1 class="text-black font-bold text-4xl mb-2">Create/login to an existing 
+                account to get started</h1>
+              <p class="font-medium text-[#737373] text-2xl">An account is created with your email and a desired password</p>
+            </div>
+          </div> 
+        <!-- Explore varieties -->
+        <div class="flex items-center flex-col-reverse md:flex-row-reverse justify-center text-center md:text-left gap-10 md:gap-0 md:pl-20 lg:pl-64">
+          <div class="">
+            <img src="export-phone.png" data-aos="flip-right" data-aos-duration="1000" data-aos-easing="linear" alt="" srcset="" class="w-[480px] h-[400px] overflow-hidden" />
+          </div>
+          <div
+            class="flex flex-col justify-self-center justify-center gap-8 md:gap-4 max-w-[560px]"
+          >
+            <p class="text-[#FA4A0C] text-xl font-bold">Explore varieties</p>
+            <h1 class="text-black font-bold text-4xl mb-2">Shop for your favorites meal as e dey hot.</h1>
+            <p class="font-medium text-[#737373] text-2xl">Shop for your favorite meals or drinks
+              and enjoy while doing it.</p>
+          </div>
+        </div> 
+        <!-- Checkout -->
+        <div class="flex items-center flex-col-reverse md:flex-row justify-center text-center md:text-left gap-10 md:gap-0">
+          <div class="">
+            <img src="export-phone.png" data-aos="flip-right" data-aos-duration="1000" data-aos-easing="linear" alt="" srcset="" class="w-[480px] h-[400px]" />
+          </div>
+          <div
+            class="flex flex-col justify-self-center justify-center gap-8 md:gap-4 max-w-[560px]"
+          >
+            <p class="text-[#FA4A0C] text-xl font-bold">Checkout</p>
+            <h1 class="text-black font-bold text-4xl mb-2">When you done check out 
+              and get it delivered.</h1>
+            <p class="font-medium text-[#737373] text-2xl">When you done check out and get it
+              delivered with ease.</p>
+          </div>
+        </div> 
+        </section>
+      </section>
+      <!-- download app section -->
+      <section class="h-[509px] bg-[#252B42] md:bg-cover flex flex-col justify-center items-center text-center gap-12 text-white font-bold pt-16 " id="footer-banner">
+        <p class="text-4xl md:text-5xl max-w-[300px] md:max-w-[900px] leading-[70px] font-poppins">
+          Download the app now.
+        </p>
+        <p class="text-xl font-normal font-poppins">
+          Most calendars are designed for teams. 
+        </p>
+        <div class="flex gap-10 flex-row">
+          <button
+            class="btn w-32 bg-[#FA4A0C] border-0 text-white font-bold rounded-2xl hover:bg-[#fa1c0c] hover:scale-105"
+          >
+            Playstore
+          </button>
+          <button
+            class="btn w-32 bg-transparent  border-white border-[1px] text-white font-bold rounded-2xl hover:bg-transparent hover:scale-105"
+          >
+            Appstore
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="h-[172px] lg:h-[220px] items-center md:px-[180px] flex flex-col md:flex-row justify-center md:justify-between gap-5">
+      <img src="bella_logo.png" class="hidden md:block h-[100px] w-[220px]" alt="">
+      <div class="flex gap-6">
+        <a href=""><img src="tweeter-vector.png" class="h-7 w-8" alt=""></a>
+        <a href=""><img src="Vectorfb.png" class="h-7 w-8" alt=""></a>
+        <a href=""><img src="insta-vector.png" class="h-7 w-8" alt=""></a>
+  </div>
+  <p class="text-[12px] font-bold text-[#5C5C5C]">Copywright 2020 Bella Onojie.com</p>
+    </footer>
+    <!-- scripts -->
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
